@@ -1,12 +1,12 @@
 Summary:	X.org video driver for Intel integrated graphics chipsets
 Summary(pl):	Sterownik obrazu X.org dla zintegrowanych uk³adów graficznych Intela
 Name:		xorg-driver-video-i810
-Version:	1.5.1.0
+Version:	1.6.0
 Release:	0.1
 License:	MIT
 Group:		X11/Applications
-Source0:	http://xorg.freedesktop.org/releases/individual/driver/xf86-video-i810/xf86-video-i810-%{version}.tar.bz2 
-# Source0-md5:	b8f757ad051b4ea91e145baabcba0c6d
+Source0:	http://xorg.freedesktop.org/releases/individual/driver/xf86-video-i810-%{version}.tar.bz2 
+# Source0-md5:	0d3db819b9617a576927fd1aebe5ab81
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	Mesa-libGL-devel
 BuildRequires:	autoconf >= 2.57
@@ -21,18 +21,19 @@ BuildRequires:	xorg-proto-renderproto-devel
 BuildRequires:	xorg-proto-videoproto-devel
 BuildRequires:	xorg-proto-xf86driproto-devel
 BuildRequires:	xorg-util-util-macros >= 0.99.2
-BuildRequires:	xorg-xserver-server-devel >= 1.0.1-0.8
+BuildRequires:	xorg-xserver-server-devel >= 1.0.99.901
+Requires:	xorg-xserver-server >= 1.0.99.901
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 X.org video driver for Intel integrated graphics chipsets. It supports
 the i810, i810-DC100, i810e, i815, 830M, 845G, 852GM, 855GM, 865G,
-915G and 915GM chipsets.
+915G, 915GM, 945G and 945GM chipsets.
 
 %description -l pl
 Sterownik obrazu X.org dla zintegrowanych uk³adów graficznych Intela.
 Obs³uguje uk³ady i810, i810-DC100, i810e, i815, 830M, 845G, 852GM,
-855GM, 865G, 915G i 915GM.
+855GM, 865G, 915G, 915GM, 945G i 945GM.
 
 %prep
 %setup -q -n xf86-video-i810-%{version}
