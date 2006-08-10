@@ -28,12 +28,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 X.org video driver for Intel integrated graphics chipsets. It supports
 the i810, i810-DC100, i810e, i815, 830M, 845G, 852GM, 855GM, 865G,
-915G, 915GM, 945G and 945GM chipsets.
+915G, 915GM, 945G, 945GM, 965G, 965Q and 946GZ chipsets.
 
 %description -l pl
 Sterownik obrazu X.org dla zintegrowanych uk³adów graficznych Intela.
 Obs³uguje uk³ady i810, i810-DC100, i810e, i815, 830M, 845G, 852GM,
-855GM, 865G, 915G, 915GM, 945G i 945GM.
+855GM, 865G, 915G, 915GM, 945G, 945GM, 965G, 965Q i 946GZ.
 
 %prep
 %setup -q -n xf86-video-i810-%{version}
