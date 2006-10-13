@@ -1,12 +1,12 @@
 Summary:	X.org video driver for Intel integrated graphics chipsets
 Summary(pl):	Sterownik obrazu X.org dla zintegrowanych uk³adów graficznych Intela
 Name:		xorg-driver-video-i810
-Version:	1.7.0
+Version:	1.7.2
 Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/driver/xf86-video-i810-%{version}.tar.bz2 
-# Source0-md5:	0209384c5d36150b48cf721bcccf844e
+# Source0-md5:	1717c2f853e2f5560b24c702da5c5961
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	Mesa-libGL-devel
 BuildRequires:	autoconf >= 2.57
