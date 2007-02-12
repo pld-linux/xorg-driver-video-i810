@@ -1,5 +1,5 @@
 Summary:	X.org video driver for Intel integrated graphics chipsets
-Summary(pl.UTF-8):   Sterownik obrazu X.org dla zintegrowanych układów graficznych Intela
+Summary(pl.UTF-8):	Sterownik obrazu X.org dla zintegrowanych układów graficznych Intela
 Name:		xorg-driver-video-i810
 Version:	1.7.4
 Release:	1
