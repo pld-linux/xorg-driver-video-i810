@@ -1,5 +1,5 @@
 Summary:	X.org video driver for Intel integrated graphics chipsets
-Summary(pl):	Sterownik obrazu X.org dla zintegrowanych uk³adów graficznych Intela
+Summary(pl.UTF-8):   Sterownik obrazu X.org dla zintegrowanych ukÅ‚adÃ³w graficznych Intela
 Name:		xorg-driver-video-i810
 Version:	1.7.4
 Release:	1
@@ -30,9 +30,9 @@ X.org video driver for Intel integrated graphics chipsets. It supports
 the i810, i810-DC100, i810e, i815, 830M, 845G, 852GM, 855GM, 865G,
 915G, 915GM, 945G, 945GM, 965G, 965Q and 946GZ chipsets.
 
-%description -l pl
-Sterownik obrazu X.org dla zintegrowanych uk³adów graficznych Intela.
-Obs³uguje uk³ady i810, i810-DC100, i810e, i815, 830M, 845G, 852GM,
+%description -l pl.UTF-8
+Sterownik obrazu X.org dla zintegrowanych ukÅ‚adÃ³w graficznych Intela.
+ObsÅ‚uguje ukÅ‚ady i810, i810-DC100, i810e, i815, 830M, 845G, 852GM,
 855GM, 865G, 915G, 915GM, 945G, 945GM, 965G, 965Q i 946GZ.
 
 %prep
