@@ -74,4 +74,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc COPYING README
 %attr(755,root,root) %{_libdir}/xorg/modules/drivers/i810_drv.so
 %attr(755,root,root) %{_libdir}/libI810XvMC.so.*.*.*
+%attr(755,root,root) %ghost %{_libdir}/libI810XvMC.so.1
 %{_mandir}/man4/i810.4*
