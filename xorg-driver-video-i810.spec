@@ -61,7 +61,7 @@ rm -rf $RPM_BUILD_ROOT
 	DESTDIR=$RPM_BUILD_ROOT
 
 rm -f $RPM_BUILD_ROOT%{_libdir}/xorg/modules/*/*.la \
-	$RPM_BUILD_ROOT%{_libdir}/libI810XvMC.la
+	$RPM_BUILD_ROOT%{_libdir}/libI810XvMC.{la,so}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
